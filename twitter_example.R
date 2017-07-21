@@ -4,7 +4,7 @@
 library("tm")
 library("wordcloud")
 library("slam")
-library("topicmodels")
+library("topicmodels") # See http://ro.uow.edu.au/cgi/viewcontent.cgi?article=2408&context=commpapers
 
 # Load Text
 # con <- file("tweets.txt", "rt")
