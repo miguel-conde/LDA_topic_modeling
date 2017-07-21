@@ -89,7 +89,9 @@ Topic <- topics(CSC_TM[["VEM"]], 1) # most likely topic for each document
 Topic
 Terms <- terms(CSC_TM[["VEM"]], 8) # most likely terms for each topic
 Terms
-
+Post <- posterior(CSC_TM[["VEM"]])
+head(Post$terms) # posterior probabilities of the terms for each topic 
+head(Post$topics)# posterior probabilities of the topics for each document 
 
 Topic[31]
 Terms[, Topic[31]]
